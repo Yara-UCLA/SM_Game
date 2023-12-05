@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7529aa16a3d219c44a4c5d3de2565d9e, type: 3}
+  m_Name: New Narrative
+  m_EditorClassIdentifier: 
+  nodeLinks:
+  - baseNodeUniqueName: ENTRYPOINT
+    portName: Next
+    targetNodeUniqueName: 78cc3847-7052-40c5-adf1-221d9f2c0c2c
+  - baseNodeUniqueName: 78cc3847-7052-40c5-adf1-221d9f2c0c2c
+    portName: Choice 1
+    targetNodeUniqueName: 55864f69-c8ea-40a7-b2de-6f12541d7645
+  - baseNodeUniqueName: 78cc3847-7052-40c5-adf1-221d9f2c0c2c
+    portName: Choice 2
+    targetNodeUniqueName: 5a6812eb-8b44-4444-ba06-e7987a3fb697
+  dialogueNodeData:
+  - uniqueName: 78cc3847-7052-40c5-adf1-221d9f2c0c2c
+    dialogueResponseText: cube
+    position: {x: 265, y: 143}
+  - uniqueName: 5a6812eb-8b44-4444-ba06-e7987a3fb697
+    dialogueResponseText: cube
+    position: {x: 653, y: 435}
+  - uniqueName: 55864f69-c8ea-40a7-b2de-6f12541d7645
+    dialogueResponseText: sphere
+    position: {x: 677, y: 143}
