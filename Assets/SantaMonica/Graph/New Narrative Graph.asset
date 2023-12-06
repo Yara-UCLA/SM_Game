@@ -2050,7 +2050,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -984, y: 2968}
+  position: {x: -984, y: 2696}
   ports:
     keys:
     - choice
@@ -4510,6 +4510,61 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: HousingJustice_1c_W 1
   choices: []
+--- !u!114 &-1600810114944540598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3112, y: 2488}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -1600810114944540598}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 6541421780495368205}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -1600810114944540598}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -1600810114944540598}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 3545044460215082031}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Art&Culture_Final_16
+  choices: []
 --- !u!114 &-1577964337650645343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5697,6 +5752,7 @@ MonoBehaviour:
   - {fileID: 3357863416980778436}
   - {fileID: 101425109485398462}
   - {fileID: 6541421780495368205}
+  - {fileID: -1600810114944540598}
   start: {fileID: 3545044460215082031}
   current: {fileID: 3545044460215082031}
 --- !u!114 &40910571008529202
@@ -8396,7 +8452,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5896, y: 1816}
+  position: {x: -3880, y: -104}
   ports:
     keys:
     - choice
@@ -8455,6 +8511,9 @@ MonoBehaviour:
         reroutePoints: []
       - fieldName: choices 0
         node: {fileID: 3357863416980778436}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: -1600810114944540598}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -10435,7 +10494,10 @@ MonoBehaviour:
       _node: {fileID: 6541421780495368205}
       _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: choice
+        node: {fileID: -1600810114944540598}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
