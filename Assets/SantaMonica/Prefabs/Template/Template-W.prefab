@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 9f5b240c1f258487d97fd28c480c722a, type: 2}
+  m_Texture: {fileID: 8400000, guid: 9379b0380c170448b982ac0c73aa998f, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -81,11 +81,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2476282649737297266}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a514d481ef5f9c244bbd7699b6ae7f00, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 6ad568f0ecf3d4b038da01ba3a230e2d, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 9f5b240c1f258487d97fd28c480c722a, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 9379b0380c170448b982ac0c73aa998f, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.033018887, g: 0.67339087, b: 1, a: 1}
+  m_Color: {r: 0.3529412, g: 0.7019608, b: 0.6156863, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

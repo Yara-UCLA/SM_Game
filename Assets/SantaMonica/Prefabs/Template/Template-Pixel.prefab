@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -300}
-  m_SizeDelta: {x: 1080, y: 50}
+  m_SizeDelta: {x: 1400, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &6699981092514946353
 CanvasRenderer:
@@ -65,8 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Olympic village is built on Broadway. After the Olympics, the facility
-    will become housing for SMC students.
+  m_text: A public pedestrian park is built in the back alley, with community and
+    rooftop gardens as well as space for exercise and play. Local families start
+    spending more time in the back alley and getting to know each other.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -99,7 +100,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -195,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.033018887, g: 0.67339087, b: 1, a: 1}
+  m_Color: {r: 0.36862746, g: 0.7294118, b: 0.6392157, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -333,7 +334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ccc49defeb944682a5bcd34473c232d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 280c831dd9f934ee88e5953bec288227, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -514,7 +515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 9f5b240c1f258487d97fd28c480c722a, type: 2}
+  m_Texture: {fileID: 8400000, guid: 41e30a7a2cf6b47f6858182f44801a6a, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -529,11 +530,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8448882146771326108}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: a514d481ef5f9c244bbd7699b6ae7f00, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 1951b413f4eb440f086319ac903eda71, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 9f5b240c1f258487d97fd28c480c722a, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 41e30a7a2cf6b47f6858182f44801a6a, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
