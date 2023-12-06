@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 664, y: -632}
+  position: {x: 824, y: -1560}
   ports:
     keys:
     - choice
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4072, y: -504}
+  position: {x: 4232, y: -1432}
   ports:
     keys:
     - choice
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 200, y: -1704}
+  position: {x: 360, y: -2632}
   ports:
     keys:
     - choice
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2728, y: -888}
+  position: {x: 2888, y: -1816}
   ports:
     keys:
     - choice
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4936, y: -2008}
+  position: {x: 5096, y: -2936}
   ports:
     keys:
     - choice
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4256.646, y: -1640.5593}
+  position: {x: 4408, y: -2568}
   ports:
     keys:
     - choice
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -104, y: -88}
+  position: {x: 40, y: -808}
   ports:
     keys:
     - choice
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 947.0818, y: -1548.8589}
+  position: {x: 1112, y: -2472}
   ports:
     keys:
     - choice
@@ -564,7 +564,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2536, y: -1576}
+  position: {x: 2696, y: -2504}
   ports:
     keys:
     - choice
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3576, y: -1640}
+  position: {x: 3736, y: -2568}
   ports:
     keys:
     - choice
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4136, y: -2200}
+  position: {x: 4296, y: -3128}
   ports:
     keys:
     - choice
@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2056, y: -856}
+  position: {x: 2216, y: -1784}
   ports:
     keys:
     - choice
@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4497.0044, y: -1202.794}
+  position: {x: 4648, y: -2120}
   ports:
     keys:
     - choice
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2584, y: -1880}
+  position: {x: 2744, y: -2808}
   ports:
     keys:
     - choice
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3064, y: -1256}
+  position: {x: 3224, y: -2184}
   ports:
     keys:
     - choice
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4104, y: -1336}
+  position: {x: 4264, y: -2264}
   ports:
     keys:
     - choice
@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3912, y: -1736}
+  position: {x: 4072, y: -2664}
   ports:
     keys:
     - choice
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2848.3765, y: -1554.974}
+  position: {x: 3000, y: -2472}
   ports:
     keys:
     - choice
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2328, y: -648}
+  position: {x: 2488, y: -1576}
   ports:
     keys:
     - choice
@@ -1554,7 +1554,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2056, y: -664}
+  position: {x: 2216, y: -1592}
   ports:
     keys:
     - choice
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2744, y: -1256}
+  position: {x: 2904, y: -2184}
   ports:
     keys:
     - choice
@@ -1732,7 +1732,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1064, y: -952}
+  position: {x: 1352, y: -2104}
   ports:
     keys:
     - choice
@@ -1787,7 +1787,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4855.756, y: -783.62616}
+  position: {x: 5016, y: -1704}
   ports:
     keys:
     - choice
@@ -1897,7 +1897,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4104, y: -1160}
+  position: {x: 4264, y: -2088}
   ports:
     keys:
     - choice
@@ -1952,7 +1952,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1464, y: -1000}
+  position: {x: 1624, y: -1928}
   ports:
     keys:
     - choice
@@ -2007,7 +2007,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1560, y: -1864}
+  position: {x: 1720, y: -2792}
   ports:
     keys:
     - choice
@@ -2094,7 +2094,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1935.4913, y: -1869.9965}
+  position: {x: 2088, y: -2792}
   ports:
     keys:
     - choice
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 696, y: -936}
+  position: {x: 984, y: -2088}
   ports:
     keys:
     - choice
@@ -2380,7 +2380,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3912, y: -1544}
+  position: {x: 4072, y: -2472}
   ports:
     keys:
     - choice
@@ -2435,7 +2435,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4136, y: -1928}
+  position: {x: 4296, y: -2856}
   ports:
     keys:
     - choice
@@ -2490,7 +2490,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4424, y: -760}
+  position: {x: 4584, y: -1688}
   ports:
     keys:
     - choice
@@ -2600,7 +2600,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4920, y: -1128}
+  position: {x: 5080, y: -2056}
   ports:
     keys:
     - choice
@@ -2655,7 +2655,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3048, y: -872}
+  position: {x: 3208, y: -1800}
   ports:
     keys:
     - choice
@@ -2713,7 +2713,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3672, y: -488}
+  position: {x: 3832, y: -1416}
   ports:
     keys:
     - choice
@@ -2781,7 +2781,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2959.8008, y: -1875.1439}
+  position: {x: 3112, y: -2792}
   ports:
     keys:
     - choice
@@ -2852,7 +2852,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2232, y: -1576}
+  position: {x: 2392, y: -2504}
   ports:
     keys:
     - choice
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3352, y: -872}
+  position: {x: 3512, y: -1800}
   ports:
     keys:
     - choice
@@ -3160,7 +3160,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 312, y: -648}
+  position: {x: 472, y: -1576}
   ports:
     keys:
     - choice
@@ -3228,7 +3228,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3688, y: -872}
+  position: {x: 3848, y: -1800}
   ports:
     keys:
     - choice
@@ -3296,7 +3296,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3384, y: -2232}
+  position: {x: 3544, y: -3160}
   ports:
     keys:
     - choice
@@ -3364,7 +3364,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1272, y: -1560}
+  position: {x: 1432, y: -2488}
   ports:
     keys:
     - choice
@@ -3506,7 +3506,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4072, y: -696}
+  position: {x: 4232, y: -1624}
   ports:
     keys:
     - choice
@@ -3561,7 +3561,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2056, y: -1048}
+  position: {x: 2216, y: -1976}
   ports:
     keys:
     - choice
@@ -3616,7 +3616,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 595.2578, y: -1593.8733}
+  position: {x: 760, y: -2520}
   ports:
     keys:
     - choice
@@ -3671,7 +3671,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4078.189, y: -893.62494}
+  position: {x: 4232, y: -1816}
   ports:
     keys:
     - choice
@@ -3726,7 +3726,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1160, y: -184}
+  position: {x: -1432, y: -1144}
   ports:
     keys:
     - choice
@@ -3796,7 +3796,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4488, y: -376}
+  position: {x: 4648, y: -1304}
   ports:
     keys:
     - choice
@@ -3941,7 +3941,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 920, y: -1848}
+  position: {x: 1080, y: -2776}
   ports:
     keys:
     - choice
@@ -3996,7 +3996,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2328, y: -856}
+  position: {x: 2488, y: -1784}
   ports:
     keys:
     - choice
@@ -4051,7 +4051,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3704, y: -1304}
+  position: {x: 3864, y: -2232}
   ports:
     keys:
     - choice
@@ -4119,7 +4119,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2328, y: -1048}
+  position: {x: 2488, y: -1976}
   ports:
     keys:
     - choice
@@ -4249,7 +4249,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2728, y: -504}
+  position: {x: 2888, y: -1432}
   ports:
     keys:
     - choice
@@ -4317,7 +4317,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4536, y: -2024}
+  position: {x: 4696, y: -2952}
   ports:
     keys:
     - choice
@@ -4375,7 +4375,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 568, y: -1864}
+  position: {x: 728, y: -2792}
   ports:
     keys:
     - choice
@@ -4491,7 +4491,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3272, y: -1672}
+  position: {x: 3432, y: -2600}
   ports:
     keys:
     - choice
@@ -4559,7 +4559,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3336, y: -488}
+  position: {x: 3496, y: -1416}
   ports:
     keys:
     - choice
@@ -4614,7 +4614,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1752, y: -968}
+  position: {x: 1912, y: -1896}
   ports:
     keys:
     - choice
@@ -4695,7 +4695,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3355.5867, y: -1252.0665}
+  position: {x: 3512, y: -2168}
   ports:
     keys:
     - choice
@@ -4750,7 +4750,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4888, y: -456}
+  position: {x: 5048, y: -1384}
   ports:
     keys:
     - choice
@@ -4805,7 +4805,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1896, y: -1560}
+  position: {x: 2056, y: -2488}
   ports:
     keys:
     - choice
@@ -4866,7 +4866,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4075.3386, y: -282.99734}
+  position: {x: 4232, y: -1208}
   ports:
     keys:
     - choice
@@ -4921,7 +4921,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1240, y: -1864}
+  position: {x: 1400, y: -2792}
   ports:
     keys:
     - choice
@@ -5002,7 +5002,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2248, y: -1864}
+  position: {x: 2408, y: -2792}
   ports:
     keys:
     - choice
@@ -5057,7 +5057,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3032, y: -488}
+  position: {x: 3192, y: -1416}
   ports:
     keys:
     - choice
@@ -5170,7 +5170,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1592, y: -1576}
+  position: {x: 1752, y: -2504}
   ports:
     keys:
     - choice
@@ -5257,7 +5257,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4543.915, y: -1687.5925}
+  position: {x: 4696, y: -2616}
   ports:
     keys:
     - choice
@@ -5312,7 +5312,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3672, y: -2072}
+  position: {x: 3832, y: -3000}
   ports:
     keys:
     - choice
@@ -5512,7 +5512,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -104, y: -648}
+  position: {x: 56, y: -1576}
   ports:
     keys:
     - choice
