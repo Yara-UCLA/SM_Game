@@ -68,8 +68,9 @@ MonoBehaviour:
   m_text: A developer builds affordable housing microunits, allowing more residents
     who grew up in the area to live in the neighborhood despite increasing rents.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -202,8 +203,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

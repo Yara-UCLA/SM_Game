@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 21.825, y: -223.446}
-  m_SizeDelta: {x: 343.65, y: 106.892}
+  m_SizeDelta: {x: 700, y: 106.892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8850468469214339900
 CanvasRenderer:
@@ -167,7 +167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000030518, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8929602874526545422
@@ -200,8 +200,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Public transportation and mobility
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -336,8 +337,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -469,7 +471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 9f5b240c1f258487d97fd28c480c722a, type: 2}
+  m_Texture: {fileID: 8400000, guid: e7536dcb28b7b464595e6ca481b8ee47, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -484,11 +486,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891609165899184291}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4152c64e2ff726142b8acadbfd20a207, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 186dbdbb371d5e34dbf77c1384809c99, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 9f5b240c1f258487d97fd28c480c722a, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: e7536dcb28b7b464595e6ca481b8ee47, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -498,14 +500,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: https://file-examples.com/storage/fef44c0bbd6567ac69a6171/2017/04/file_example_MP4_640_3MG.mp4
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -624,7 +624,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 21.825, y: -90}
-  m_SizeDelta: {x: 343.65, y: 100}
+  m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5190865893079567106
 CanvasRenderer:
@@ -788,8 +788,9 @@ MonoBehaviour:
   m_text: You are an activist who cares deeply about the environment. Which aspect
     of the environment are you most passionate about?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -907,7 +908,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7138052672892948001}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -1066,8 +1067,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Urban climate resilience
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1170,7 +1172,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 21.8248, y: -350}
-  m_SizeDelta: {x: 343.6497, y: 100}
+  m_SizeDelta: {x: 700, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8490147619866341623
 CanvasRenderer:

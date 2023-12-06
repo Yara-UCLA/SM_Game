@@ -68,8 +68,9 @@ MonoBehaviour:
   m_text: Build a Metro station at the corner of the block to replace the 17th St
     / SMC Station that was damaged in the earthquake.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -305,14 +306,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: https://file-examples.com/storage/fef44c0bbd6567ac69a6171/2017/04/file_example_MP4_640_3MG.mp4
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -492,8 +491,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Build a bus rapid transit hub.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -893,8 +893,9 @@ MonoBehaviour:
   m_text: More people move to the block, and the residents demand better transit
     connectivity. How do you think the block's transit should be improved?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
+  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -1,5 +1,70 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9211160915961351951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 664, y: -632}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: -9211160915961351951}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: 2001212317912240653}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -9211160915961351951}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -9211160915961351951}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -218331910648913935}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -9211160915961351951}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: BlockResidents-02-PC-Q
+  choices: []
 --- !u!114 &-8994410572390921947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +175,74 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-3c-AnswerA-Yufei-Pixel
   choices: []
+--- !u!114 &-8125948948786240940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 200, y: -1704}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: -8125948948786240940}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 8953294946078373246}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -8125948948786240940}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -8125948948786240940}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 5551706340259476375}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -8125948948786240940}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 2922283670528340379}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-00-Jane-Q
+  choices: []
 --- !u!114 &-8004636559874503397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +310,443 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: CommunitySpace-2a-Yufei-Q
+  choices: []
+--- !u!114 &-7441097291768931703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4936, y: -2008}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -7441097291768931703}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 5317421501792321471}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -7441097291768931703}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -7441097291768931703}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 3545044460215082031}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1c-Jane-FINAL
+  choices: []
+--- !u!114 &-7423441736208105440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4256.646, y: -1640.5593}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -7423441736208105440}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -4252615928355619062}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: 40910571008529202}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -7423441736208105440}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -7423441736208105440}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 8027034362686108416}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2c-Jane-W
+  choices: []
+--- !u!114 &-7342781242131283796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -104, y: -88}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    - choices 2
+    values:
+    - _fieldName: choice
+      _node: {fileID: -7342781242131283796}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: -6283505326150926258}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -7342781242131283796}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -7342781242131283796}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -7342781242131283796}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 2
+      _node: {fileID: -7342781242131283796}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Environmentalist activist
+  choices: []
+--- !u!114 &-7110037557938022768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 947.0818, y: -1548.8589}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -7110037557938022768}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 2922283670528340379}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -7110037557938022768}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -7110037557938022768}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 2290442315714554383}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2a-Jane-W
+  choices: []
+--- !u!114 &-6931063072489349180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2536, y: -1576}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: -6931063072489349180}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 1185408060415285002}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -6931063072489349180}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -6931063072489349180}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -3759578069720935869}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -6931063072489349180}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -3759578069720935869}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2b.1-Jane-Q
+  choices: []
+--- !u!114 &-6692555871498944318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3576, y: -1640}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: -6692555871498944318}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: -3759578069720935869}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: 5693693605136695220}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: 5693693605136695220}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -6692555871498944318}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -6692555871498944318}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -4252615928355619062}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -6692555871498944318}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 40910571008529202}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2b.3-Jane-Q
+  choices: []
+--- !u!114 &-6488451383192225202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4136, y: -2200}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -6488451383192225202}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 8479817532598285691}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -6488451383192225202}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -6488451383192225202}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 5317421501792321471}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1c.0-Jane-Pixel
   choices: []
 --- !u!114 &-6399437097633566178
 MonoBehaviour:
@@ -294,7 +864,10 @@ MonoBehaviour:
       _node: {fileID: -6283505326150926258}
       _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: choice
+        node: {fileID: -7342781242131283796}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -551,6 +1124,74 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-1c-Yufei-W
   choices: []
+--- !u!114 &-4623019042111562468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2584, y: -1880}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: -4623019042111562468}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 7697537132300865448}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -4623019042111562468}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -4623019042111562468}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 1160523779469007992}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -4623019042111562468}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 1160523779469007992}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1b.1-Jane-Q
+  choices: []
 --- !u!114 &-4554156940274277981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +1305,61 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-1c-AnswerA-Yufei-Pixel
   choices: []
+--- !u!114 &-4252615928355619062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3912, y: -1736}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -4252615928355619062}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -6692555871498944318}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -4252615928355619062}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -4252615928355619062}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -7423441736208105440}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2c.0-Jane-Pixel
+  choices: []
 --- !u!114 &-3951153589888891208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,6 +1414,77 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: HousingJustice_1b_W
+  choices: []
+--- !u!114 &-3759578069720935869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2848.3765, y: -1554.974}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: -3759578069720935869}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: -6931063072489349180}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: -6931063072489349180}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -3759578069720935869}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -3759578069720935869}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 5693693605136695220}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -3759578069720935869}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -6692555871498944318}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2b.2-Jane-Q
   choices: []
 --- !u!114 &-3746496906400740117
 MonoBehaviour:
@@ -1227,6 +1994,154 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-00-Yufei-W
   choices: []
+--- !u!114 &-992144171890060205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1560, y: -1864}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    - choices 2
+    values:
+    - _fieldName: choice
+      _node: {fileID: -992144171890060205}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 7664684315984265945}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: 7664684315984265945}
+        reroutePoints: []
+      - fieldName: choices 2
+        node: {fileID: 7664684315984265945}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -992144171890060205}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -992144171890060205}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -918445178133311530}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: -992144171890060205}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -918445178133311530}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 2
+      _node: {fileID: -992144171890060205}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -918445178133311530}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1a.2-Jane-Q
+  choices: []
+--- !u!114 &-918445178133311530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1935.4913, y: -1869.9965}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: -918445178133311530}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -992144171890060205}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: -992144171890060205}
+        reroutePoints: []
+      - fieldName: choices 2
+        node: {fileID: -992144171890060205}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: -918445178133311530}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: -918445178133311530}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7697537132300865448}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1b-Jane-Pixel
+  choices: []
 --- !u!114 &-473911182794764967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,6 +2225,9 @@ MonoBehaviour:
       connections:
       - fieldName: choices 0
         node: {fileID: 2001212317912240653}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: -9211160915961351951}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1416,8 +2334,149 @@ MonoBehaviour:
   - {fileID: 711203921754986286}
   - {fileID: -2081341858337698598}
   - {fileID: 6683399794052240192}
+  - {fileID: -9211160915961351951}
+  - {fileID: -7342781242131283796}
+  - {fileID: -8125948948786240940}
+  - {fileID: 5551706340259476375}
+  - {fileID: 4038730472570444156}
+  - {fileID: 7664684315984265945}
+  - {fileID: -992144171890060205}
+  - {fileID: -918445178133311530}
+  - {fileID: 7697537132300865448}
+  - {fileID: -4623019042111562468}
+  - {fileID: 1160523779469007992}
+  - {fileID: 2213822096814239937}
+  - {fileID: 8479817532598285691}
+  - {fileID: -6488451383192225202}
+  - {fileID: 97267585758728915}
+  - {fileID: 5317421501792321471}
+  - {fileID: -7441097291768931703}
+  - {fileID: 2922283670528340379}
+  - {fileID: -7110037557938022768}
+  - {fileID: 2290442315714554383}
+  - {fileID: 7869058655294637886}
+  - {fileID: 7192015446789265107}
+  - {fileID: 1185408060415285002}
+  - {fileID: -6931063072489349180}
+  - {fileID: -3759578069720935869}
+  - {fileID: 5693693605136695220}
+  - {fileID: -6692555871498944318}
+  - {fileID: -4252615928355619062}
+  - {fileID: 40910571008529202}
+  - {fileID: -7423441736208105440}
+  - {fileID: 8027034362686108416}
   start: {fileID: 3545044460215082031}
-  current: {fileID: 2001212317912240653}
+  current: {fileID: 3545044460215082031}
+--- !u!114 &40910571008529202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3912, y: -1544}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 40910571008529202}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: -6692555871498944318}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 40910571008529202}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 40910571008529202}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -7423441736208105440}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2c.1-Jane-Pixel
+  choices: []
+--- !u!114 &97267585758728915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4136, y: -1928}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 97267585758728915}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: 8479817532598285691}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 97267585758728915}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 97267585758728915}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 5317421501792321471}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1c.1-Jane-Pixel
+  choices: []
 --- !u!114 &343573733941348735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,6 +2767,132 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: CommunitySpace-3b-Yufei-Q
+  choices: []
+--- !u!114 &1160523779469007992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2959.8008, y: -1875.1439}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: 1160523779469007992}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -4623019042111562468}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: -4623019042111562468}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 1160523779469007992}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 1160523779469007992}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 2213822096814239937}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 1160523779469007992}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 8479817532598285691}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1b.2-Jane-Q
+  choices: []
+--- !u!114 &1185408060415285002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2232, y: -1576}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 1185408060415285002}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 7192015446789265107}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 1185408060415285002}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 1185408060415285002}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -6931063072489349180}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2b-Jane-W
   choices: []
 --- !u!114 &1233086464917475687
 MonoBehaviour:
@@ -2020,7 +3205,10 @@ MonoBehaviour:
       _node: {fileID: 2001212317912240653}
       _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: choice
+        node: {fileID: -9211160915961351951}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -2094,6 +3282,155 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: CommunitySpace-2b-Yufei-Q
+  choices: []
+--- !u!114 &2213822096814239937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3384, y: -2232}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: 2213822096814239937}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 1160523779469007992}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 2213822096814239937}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 2213822096814239937}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 8479817532598285691}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 2213822096814239937}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 8479817532598285691}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1b.2.0-Jane-Q
+  choices: []
+--- !u!114 &2290442315714554383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1272, y: -1560}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    - choices 2
+    values:
+    - _fieldName: choice
+      _node: {fileID: 2290442315714554383}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -7110037557938022768}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 2290442315714554383}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 2290442315714554383}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7869058655294637886}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 2290442315714554383}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7869058655294637886}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 2
+      _node: {fileID: 2290442315714554383}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7869058655294637886}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2a.1-Jane-Q
   choices: []
 --- !u!114 &2294110982371661089
 MonoBehaviour:
@@ -2266,6 +3603,61 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-1a-Yufei-Pixel
   choices: []
+--- !u!114 &2922283670528340379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 595.2578, y: -1593.8733}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 2922283670528340379}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: -8125948948786240940}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 2922283670528340379}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 2922283670528340379}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -7110037557938022768}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2a-Jane-Pixel
+  choices: []
 --- !u!114 &3316347236208925716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2347,9 +3739,6 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: choices 0
-        node: {fileID: 711203921754986286}
-        reroutePoints: []
-      - fieldName: choices 0
         node: {fileID: -2081341858337698598}
         reroutePoints: []
       - fieldName: choices 0
@@ -2357,6 +3746,15 @@ MonoBehaviour:
         reroutePoints: []
       - fieldName: choices 0
         node: {fileID: -473911182794764967}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: 711203921754986286}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: -7441097291768931703}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: 8027034362686108416}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -2529,6 +3927,61 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: HousingJustice_1a_Q
+  choices: []
+--- !u!114 &4038730472570444156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: -1848}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 4038730472570444156}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 5551706340259476375}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 4038730472570444156}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 4038730472570444156}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7664684315984265945}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1a-Jane-W
   choices: []
 --- !u!114 &4252044580939198924
 MonoBehaviour:
@@ -2851,6 +4304,119 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-3a-Yufei-Q
   choices: []
+--- !u!114 &5317421501792321471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4536, y: -2024}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 5317421501792321471}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 97267585758728915}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: -6488451383192225202}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 5317421501792321471}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 5317421501792321471}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -7441097291768931703}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1c-Jane-W
+  choices: []
+--- !u!114 &5551706340259476375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 568, y: -1864}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 5551706340259476375}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -8125948948786240940}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 5551706340259476375}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 5551706340259476375}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 4038730472570444156}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1a-Jane-Pixel
+  choices: []
 --- !u!114 &5672440269219237356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2911,6 +4477,74 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: HousingJustice_1b_Pixel
+  choices: []
+--- !u!114 &5693693605136695220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3272, y: -1672}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: 5693693605136695220}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -3759578069720935869}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 5693693605136695220}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 5693693605136695220}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -6692555871498944318}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 5693693605136695220}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -6692555871498944318}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2b.2.0-Jane-Q
   choices: []
 --- !u!114 &6190539284028368774
 MonoBehaviour:
@@ -3158,6 +4792,67 @@ MonoBehaviour:
       _dynamic: 1
   canvasName: CommunitySpace-3c-AnswerA-Yufei-Ending
   choices: []
+--- !u!114 &7192015446789265107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1896, y: -1560}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 7192015446789265107}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 7869058655294637886}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: 7869058655294637886}
+        reroutePoints: []
+      - fieldName: choices 2
+        node: {fileID: 7869058655294637886}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 7192015446789265107}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 7192015446789265107}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 1185408060415285002}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2b-Jane-Pixel
+  choices: []
 --- !u!114 &7555491795626810775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3212,6 +4907,142 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: CommunitySpace-3c-AnswerB-Yufei-Pixel
+  choices: []
+--- !u!114 &7664684315984265945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1240, y: -1864}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    - choices 2
+    values:
+    - _fieldName: choice
+      _node: {fileID: 7664684315984265945}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 4038730472570444156}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 7664684315984265945}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 7664684315984265945}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -992144171890060205}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 7664684315984265945}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -992144171890060205}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 2
+      _node: {fileID: 7664684315984265945}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -992144171890060205}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1a.1-Jane-Q
+  choices: []
+--- !u!114 &7697537132300865448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2248, y: -1864}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 7697537132300865448}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -918445178133311530}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 7697537132300865448}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 7697537132300865448}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -4623019042111562468}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1b-Jane-W
   choices: []
 --- !u!114 &7787708038142483077
 MonoBehaviour:
@@ -3325,6 +5156,222 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: HousingJustice_1c_Pixel
+  choices: []
+--- !u!114 &7869058655294637886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1592, y: -1576}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    - choices 2
+    values:
+    - _fieldName: choice
+      _node: {fileID: 7869058655294637886}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: 2290442315714554383}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: 2290442315714554383}
+        reroutePoints: []
+      - fieldName: choices 2
+        node: {fileID: 2290442315714554383}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 7869058655294637886}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 7869058655294637886}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7192015446789265107}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 7869058655294637886}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7192015446789265107}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 2
+      _node: {fileID: 7869058655294637886}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 7192015446789265107}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2a.2-Jane-Q
+  choices: []
+--- !u!114 &8027034362686108416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4543.915, y: -1687.5925}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    values:
+    - _fieldName: choice
+      _node: {fileID: 8027034362686108416}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 0
+        node: {fileID: -7423441736208105440}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 8027034362686108416}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 8027034362686108416}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 3545044460215082031}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-2c-Jane-FINAL
+  choices: []
+--- !u!114 &8479817532598285691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
+  m_Name: Next Canvas
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3672, y: -2072}
+  ports:
+    keys:
+    - choice
+    - choices
+    - choices 0
+    - choices 1
+    values:
+    - _fieldName: choice
+      _node: {fileID: 8479817532598285691}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choices 1
+        node: {fileID: 1160523779469007992}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: 2213822096814239937}
+        reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: 2213822096814239937}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices
+      _node: {fileID: 8479817532598285691}
+      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: choices 0
+      _node: {fileID: 8479817532598285691}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: -6488451383192225202}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: choices 1
+      _node: {fileID: 8479817532598285691}
+      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: choice
+        node: {fileID: 97267585758728915}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  canvasName: Play&Education-1b.3-Jane-Q
   choices: []
 --- !u!114 &8629423252079411903
 MonoBehaviour:
@@ -3465,7 +5512,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -56, y: -616}
+  position: {x: -104, y: -648}
   ports:
     keys:
     - choice
@@ -3498,7 +5545,10 @@ MonoBehaviour:
       _node: {fileID: 8953294946078373246}
       _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: choice
+        node: {fileID: -8125948948786240940}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
