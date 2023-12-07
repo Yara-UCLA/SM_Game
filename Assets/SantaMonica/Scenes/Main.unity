@@ -276,11 +276,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Intro_
       objectReference: {fileID: 0}
-    - target: {fileID: 7228368610018300710, guid: 7b5cb7848f840401e969cf06ad650d15,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8728119457702864239, guid: 7b5cb7848f840401e969cf06ad650d15,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3979,16 +3974,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockResident_1a_Casper_Q
       objectReference: {fileID: 0}
-    - target: {fileID: 1386726715812470543, guid: 8ba45cbed8686c54a825f1a6c2dbe3ed,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1752192922777673146, guid: 8ba45cbed8686c54a825f1a6c2dbe3ed,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6696729405595814447, guid: 8ba45cbed8686c54a825f1a6c2dbe3ed,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4094,11 +4079,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 7212246907805752687, guid: 8ba45cbed8686c54a825f1a6c2dbe3ed,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5153,26 +5133,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 176289973}
     m_Modifications:
-    - target: {fileID: 1344242783264165156, guid: f0f8af3b1b9932a4e801eba6c990b5b2,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2100247865641812382, guid: f0f8af3b1b9932a4e801eba6c990b5b2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 2352943493333472044, guid: f0f8af3b1b9932a4e801eba6c990b5b2,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2695837424052412560, guid: f0f8af3b1b9932a4e801eba6c990b5b2,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3086467975685898312, guid: f0f8af3b1b9932a4e801eba6c990b5b2,
         type: 3}
       propertyPath: m_Pivot.x
@@ -5288,11 +5253,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 8043414942987709186, guid: f0f8af3b1b9932a4e801eba6c990b5b2,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6158,21 +6118,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 5682606903264259510, guid: 690f11711f167a643a3ef92afb8c54ee,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6121729091945436697, guid: 690f11711f167a643a3ef92afb8c54ee,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6640510905433489749, guid: 690f11711f167a643a3ef92afb8c54ee,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7295934920172890721, guid: 690f11711f167a643a3ef92afb8c54ee,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6395,17 +6340,17 @@ PrefabInstance:
     - target: {fileID: 541956388617833411, guid: 0e760043300dd154897fc92930df2db6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 541956388617833411, guid: 0e760043300dd154897fc92930df2db6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 541956388617833411, guid: 0e760043300dd154897fc92930df2db6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 541956388617833411, guid: 0e760043300dd154897fc92930df2db6,
         type: 3}
@@ -7082,21 +7027,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 5682606903264259510, guid: 4f9e9426a1869e14d894aeb4fc1a2a9a,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6121729091945436697, guid: 4f9e9426a1869e14d894aeb4fc1a2a9a,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6640510905433489749, guid: 4f9e9426a1869e14d894aeb4fc1a2a9a,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7295934920172890721, guid: 4f9e9426a1869e14d894aeb4fc1a2a9a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7233,31 +7163,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2349484215490294085, guid: 3d13208859d4df74888060218f3e95a4,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2400030174561979601, guid: 3d13208859d4df74888060218f3e95a4,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2466192382518784141, guid: 3d13208859d4df74888060218f3e95a4,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2893238659634383589, guid: 3d13208859d4df74888060218f3e95a4,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 4275056554690641156, guid: 3d13208859d4df74888060218f3e95a4,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4902767550969863960, guid: 3d13208859d4df74888060218f3e95a4,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10529,11 +10439,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 868367434732801925, guid: d4574bce12ee14f419826a2d2f936db1,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2160357125955582551, guid: d4574bce12ee14f419826a2d2f936db1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10549,26 +10454,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhoAreYou_
       objectReference: {fileID: 0}
-    - target: {fileID: 4665892883548536447, guid: d4574bce12ee14f419826a2d2f936db1,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6192852849380002253, guid: d4574bce12ee14f419826a2d2f936db1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 6378532794884111429, guid: d4574bce12ee14f419826a2d2f936db1,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7140129615808840454, guid: d4574bce12ee14f419826a2d2f936db1,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7592501214847081596, guid: d4574bce12ee14f419826a2d2f936db1,
         type: 3}
       propertyPath: m_Pivot.x
@@ -10667,16 +10557,6 @@ PrefabInstance:
     - target: {fileID: 7592501214847081596, guid: d4574bce12ee14f419826a2d2f936db1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8832233189381076818, guid: d4574bce12ee14f419826a2d2f936db1,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9087188011557927696, guid: d4574bce12ee14f419826a2d2f936db1,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11649,16 +11529,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SantaMonicaCityCouncil-Q
       objectReference: {fileID: 0}
-    - target: {fileID: 2085856303441735621, guid: 194ea73955b0cb04f883f87507de4e4e,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2648804840162838712, guid: 194ea73955b0cb04f883f87507de4e4e,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3050250249597802961, guid: 194ea73955b0cb04f883f87507de4e4e,
         type: 3}
       propertyPath: m_Pivot.x
@@ -11769,16 +11639,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 4677199510140306362, guid: 194ea73955b0cb04f883f87507de4e4e,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5160120205382031593, guid: 194ea73955b0cb04f883f87507de4e4e,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6999017549810130626, guid: 194ea73955b0cb04f883f87507de4e4e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -25951,41 +25811,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 176289973}
     m_Modifications:
-    - target: {fileID: 369693629755790859, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1497773328037055400, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 2629028322654782475, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3008594531221152846, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 3745020054153420350, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4432155148120186896, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1547793851}
-    - target: {fileID: 4982907192534513701, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6742672396350988666, guid: eb659e4c6058e6b4ba7109ec64df6a6d,
         type: 3}
       propertyPath: m_Pivot.x
