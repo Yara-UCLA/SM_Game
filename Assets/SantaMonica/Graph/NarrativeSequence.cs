@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Video;
 using XNode;
 
 public class NarrativeSequence : MonoBehaviour
@@ -9,6 +10,7 @@ public class NarrativeSequence : MonoBehaviour
 
     public Canvas currentCanvas;
     public Canvas nextCanvas;
+    [SerializeField] private VideoPlayer BGVideo;
     
     public void Awake()
     {
@@ -41,5 +43,24 @@ public class NarrativeSequence : MonoBehaviour
     public void GraphContinue(int index)
     {
         narrativeGraph.Continue(index);
+        var currentVideoPlayer = currentCanvas.GetComponentInChildren<VideoPlayer>();
+        if(currentVideoPlayer == null || currentVideoPlayer.clip == null)
+        {
+            BGVideo.Pause();
+        }
+        else
+        {
+            currentVideoPlayer.Stop();
+        }
+
+        var nextVideoPlayer = nextCanvas.GetComponentInChildren<VideoPlayer>();
+        if (nextVideoPlayer == null || nextVideoPlayer.clip == null)
+        {
+            BGVideo.Play();
+        }
+        else
+        {
+            nextVideoPlayer.Play();
+        }
     }
 }
