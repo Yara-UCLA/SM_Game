@@ -67,16 +67,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: Do you think the workload for young kids is too stressful for them?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
-  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+  m_fontAsset: {fileID: 11400000, guid: 7995c1cad3601b840bd6bb64f226200d, type: 2}
+  m_sharedMaterial: {fileID: 6412180373192752163, guid: 7995c1cad3601b840bd6bb64f226200d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288562687
-  m_fontColor: {r: 1, g: 0.2688679, b: 0.6212742, a: 1}
+    rgba: 4292388863
+  m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -277,16 +277,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: No. Kids are able to have a balanced childhood with school and play.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
-  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+  m_fontAsset: {fileID: 11400000, guid: 7995c1cad3601b840bd6bb64f226200d, type: 2}
+  m_sharedMaterial: {fileID: 6412180373192752163, guid: 7995c1cad3601b840bd6bb64f226200d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292388863
+  m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -303,8 +303,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -382,7 +382,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000015259, y: -280}
-  m_SizeDelta: {x: 1200, y: 110}
+  m_SizeDelta: {x: 1200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2527297485544313797
 CanvasRenderer:
@@ -405,15 +405,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.033018887, g: 0.67339087, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bb01f06d9216c4bdaa7cf884d5c0d104, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -514,8 +514,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 1200, y: 110}
+  m_AnchoredPosition: {x: 0, y: -45}
+  m_SizeDelta: {x: 1200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2440705954578985873
 CanvasRenderer:
@@ -538,15 +538,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.033018887, g: 0.67339087, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bb01f06d9216c4bdaa7cf884d5c0d104, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -679,16 +679,16 @@ MonoBehaviour:
   m_text: Yes. Kids spend so much time on schoolwork and extracurricular activities
     these days.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
-  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+  m_fontAsset: {fileID: 11400000, guid: 7995c1cad3601b840bd6bb64f226200d, type: 2}
+  m_sharedMaterial: {fileID: 6412180373192752163, guid: 7995c1cad3601b840bd6bb64f226200d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292388863
+  m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -705,8 +705,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -864,7 +864,6 @@ GameObject:
   - component: {fileID: 1000797124496734296}
   - component: {fileID: 535315604571751713}
   - component: {fileID: 6095156811583759585}
-  - component: {fileID: 8489634665144790569}
   m_Layer: 5
   m_Name: BG
   m_TagString: Untagged
@@ -926,37 +925,3 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!328 &8489634665144790569
-VideoPlayer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8672482315611117993}
-  m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 186dbdbb371d5e34dbf77c1384809c99, type: 3}
-  m_TargetCameraAlpha: 1
-  m_TargetCamera3DLayout: 0
-  m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 18c43ff0fb3755d4c8cf31132490f2bc, type: 2}
-  m_TimeReference: 0
-  m_TargetMaterialRenderer: {fileID: 0}
-  m_TargetMaterialProperty: <noninit>
-  m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 0
-  m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
-  m_Url: https://file-examples.com/storage/fef44c0bbd6567ac69a6171/2017/04/file_example_MP4_640_3MG.mp4
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
-  m_FrameReadyEventEnabled: 0
-  m_VideoShaders: []

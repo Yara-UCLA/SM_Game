@@ -1051,7 +1051,7 @@ MonoBehaviour:
   m_Name: Next Canvas
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 888, y: -2072}
+  position: {x: 840, y: -2056}
   ports:
     keys:
     - choice
@@ -1356,7 +1356,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 1
-  canvasName: Health & Fitness_1a_P 1
+  canvasName: Health & Fitness_1a_P
   choices: []
 --- !u!114 &-6779752951774713245
 MonoBehaviour:
@@ -1851,6 +1851,9 @@ MonoBehaviour:
       connections:
       - fieldName: choices 0
         node: {fileID: 3545044460215082031}
+        reroutePoints: []
+      - fieldName: choices 0
+        node: {fileID: -473911182794764967}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -4205,6 +4208,9 @@ MonoBehaviour:
       - fieldName: choices 0
         node: {fileID: -218331910648913935}
         reroutePoints: []
+      - fieldName: choices 1
+        node: {fileID: -218331910648913935}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -4454,61 +4460,6 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 1
   canvasName: CommunitySpace-1c-AnswerB-Yufei-Pixel
-  choices: []
---- !u!114 &-1722171148270649232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4bdac3a904647c4982e335a725dc4bb, type: 3}
-  m_Name: Next Canvas
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 3560, y: 1768}
-  ports:
-    keys:
-    - choice
-    - choices
-    - choices 0
-    values:
-    - _fieldName: choice
-      _node: {fileID: -1722171148270649232}
-      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: choices 0
-        node: {fileID: -473911182794764967}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: choices
-      _node: {fileID: -1722171148270649232}
-      _typeQualifiedName: NextCanvasNode+Empty[], Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: choices 0
-      _node: {fileID: -1722171148270649232}
-      _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-      connections:
-      - fieldName: choice
-        node: {fileID: 3545044460215082031}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  canvasName: HousingJustice_1c_W 1
   choices: []
 --- !u!114 &-1600810114944540598
 MonoBehaviour:
@@ -5232,7 +5183,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: choice
-        node: {fileID: -1722171148270649232}
+        node: {fileID: -6283505326150926258}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -5534,7 +5485,10 @@ MonoBehaviour:
       _node: {fileID: -218331910648913935}
       _typeQualifiedName: NextCanvasNode+Empty, Assembly-CSharp, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: choice
+        node: {fileID: -2115129343463172763}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -5703,7 +5657,6 @@ MonoBehaviour:
   - {fileID: -6566548175095491819}
   - {fileID: -2816437834067786128}
   - {fileID: 8386197392309135850}
-  - {fileID: -1722171148270649232}
   - {fileID: -8926198538475711755}
   - {fileID: -5556318487667686632}
   - {fileID: 191814731448304598}
@@ -8487,9 +8440,6 @@ MonoBehaviour:
         reroutePoints: []
       - fieldName: choices 0
         node: {fileID: 8386197392309135850}
-        reroutePoints: []
-      - fieldName: choices 0
-        node: {fileID: -1722171148270649232}
         reroutePoints: []
       - fieldName: choices 0
         node: {fileID: -2952590664945552704}

@@ -176,16 +176,16 @@ MonoBehaviour:
     GAME
     OVER'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
-  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+  m_fontAsset: {fileID: 11400000, guid: 7995c1cad3601b840bd6bb64f226200d, type: 2}
+  m_sharedMaterial: {fileID: 6412180373192752163, guid: 7995c1cad3601b840bd6bb64f226200d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288562687
-  m_fontColor: {r: 1, g: 0.2688679, b: 0.6212742, a: 1}
+    rgba: 4292388863
+  m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -202,8 +202,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -386,16 +386,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b0c9d7dddb229924494cf3622a559741, type: 2}
-  m_sharedMaterial: {fileID: 2150173251940795735, guid: b0c9d7dddb229924494cf3622a559741,
+  m_fontAsset: {fileID: 11400000, guid: 7995c1cad3601b840bd6bb64f226200d, type: 2}
+  m_sharedMaterial: {fileID: 6412180373192752163, guid: 7995c1cad3601b840bd6bb64f226200d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292388863
+  m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -412,8 +412,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -514,15 +514,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.033018887, g: 0.67339087, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bb01f06d9216c4bdaa7cf884d5c0d104, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 5aa4073e2561d99468326dfd8b3f3770, type: 2}
+  m_Texture: {fileID: 8400000, guid: d927fc83ffc75454fb3c44c7b5c6a1f1, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -668,11 +668,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5976684067000410769}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 354955ef5f806fb48b7ea4f7b0867323, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 4a4ab0b8df5741f4b92679688e008aac, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 5aa4073e2561d99468326dfd8b3f3770, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: d927fc83ffc75454fb3c44c7b5c6a1f1, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -688,7 +688,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
