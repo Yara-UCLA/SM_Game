@@ -76,7 +76,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288562687
+    rgba: 4292388863
   m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4292388863
   m_fontColor: {r: 1, g: 0.6556604, b: 0.8462327, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -471,6 +471,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: NarrativeSequence, Assembly-CSharp
         m_MethodName: GraphContinue
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: AudioPlayTimed, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
